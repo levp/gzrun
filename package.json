@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "version": "0.1.0-beta.0",
+  "name": "gzrun",
+  "author": "Levi Perelman",
+  "scripts": {
+    "build": "gulp          --gulpfile ./build/gulpfile.ts --cwd ./",
+    "watch": "gulp watch    --gulpfile ./build/gulpfile.ts --cwd ./",
+    "serve": "gulp serve    --gulpfile ./build/gulpfile.ts --cwd ./"
+  },
+  "devDependencies": {
+    "@types/browser-sync": "0.0.42",
+    "@types/del": "^3.0.1",
+    "@types/gulp": "^3.8.36",
+    "@types/node": "^10.11.7",
+    "@types/run-sequence": "0.0.30",
+    "browser-sync": "^2.26.0",
+    "chalk": "^2.4.1",
+    "del": "^3.0.0",
+    "electron": "^3.0.4",
+    "gulp": "^3.9.1",
+    "run-sequence": "^2.2.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3"
+  }
+}

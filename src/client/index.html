@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World!</title>
+
+	<!-- Style -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<main>
+	<!-------------------------
+	  Left Column
+	  ------------------------->
+	<section id="column-left">
+
+		<!-- Start the game -->
+		<section class="section-container">
+			<div>
+				<button id="launch-game-button" disabled>Start Game</button>
+			</div>
+		</section>
+
+		<!-- Executable -->
+		<section id="container-exec" class="section-container required-missing required-section">
+			<div>
+				<button id="gzdoom-select-button">Select GZDoom executable</button>
+			</div>
+			<div>
+				Currently selected GZDoom executable:
+				<div id="gzdoom-currently-selected">NO FILE SELECTED</div>
+			</div>
+		</section>
+
+		<!-- Select IWAD -->
+		<section id="container-iwad" class="section-container required-missing required-section">
+			<div>
+				<button id="iwad-select-button">Select IWAD</button>
+			</div>
+			<div>
+				Currently selected IWAD:
+				<div id="iwad-currently-selected" class="required-missing">NO FILE SELECTED</div>
+			</div>
+		</section>
+
+		<!-- Select external files -->
+		<section class="section-container optional-section">
+			<button id="externals-select-button">Select external files</button>
+			<div>Currently selected external files:</div>
+			<div id="externals-current-list"></div>
+		</section>
+
+	</section>
+
+	<!-------------------------
+	  RIGHT Column
+	  ------------------------->
+	<section id="column-right">
+		<div id="console-log"></div>
+	</section>
+
+</main>
+
+<!-- Can't believe we need this -->
+<script>window.exports = {};</script>
+
+<!-- Scripts -->
+<script src="client.js"></script>
+
+<!-- BrowserSync -->
+<script id="__bs_script__">//<![CDATA[
+document.write("<script async src='http://localhost:3000/browser-sync/browser-sync-client.js?v=2.26.0'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+</body>
+</html>

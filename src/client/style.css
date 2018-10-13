@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url('./fonts/RobotoMono-Regular.ttf') format('truetype');
+}
+
+body {
+	margin: 0;
+	background-color: #ccc;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+}
+
+button {
+	font: inherit;
+}
+
+#column-left {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+}
+
+#column-right {
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	border-right: 1px solid #000;
+	background-color: #333;
+}
+
+#console-log {
+	overflow-y: scroll;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 12px 6px 12px 6px;
+	font-family: monospace;
+	font-size: 14px;
+	color: #f0f0f0;
+}
+
+.section-container {
+	margin: 4px;
+	padding: 6px;
+	border: 1px solid #000;
+}
+
+#externals-current-list {
+	overflow-y: scroll;
+	height: 120px;
+	padding: 2px;
+	background-color: #fff;
+	font-family: monospace;
+	color: #000;
+}
+
+#externals-current-list > div:hover {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#gzdoom-currently-selected,
+#iwad-currently-selected {
+	padding: 8px;
+	background: #0f0;
+}
+
+.required-missing #gzdoom-currently-selected,
+.required-missing #iwad-currently-selected {
+	background-color: #f00 !important;
+}
+
+#launch-game-button {
+	width: 100%;
+	height: 50px;
+	font-size: 32px;
+}
+
+.required-section:before, .optional-section:before {
+	position: absolute;
+	right: 8px;
+	background-color: #000;
+	padding: 1px 3px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.required-section:before {
+	content: 'REQUIRED ✓';
+	color: #22ee22;
+}
+.required-missing.required-section:before {
+	content: 'REQUIRED ✕';
+	color: #ff0000 !important;
+}
+
+.optional-section:before {
+	content: 'OPTIONAL ✓';
+	color: #22ee22;
+}

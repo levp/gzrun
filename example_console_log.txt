@@ -1,0 +1,79 @@
+GZDoom g3.5.1 - 2018-08-25 20:39:58 +0200 - SDL version Compiled on Aug 25 2018 M_LoadDefaults: Load system defaults.
+W_Init: Init WADfiles. adding /opt/gzdoom/gzdoom.pk3
+, 627 lumps adding /opt/gzdoom/zd_extra.pk3, 132 lumps adding /home/levi/Games/DooMods/maps/TNT.WAD
+, 3101 lumps
+I_Init: Setting up machine state. CPU Vendor ID: GenuineIntel Name: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz Family 6, Model 60, Stepping 3 Features: SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 HyperThreading
+I_InitSound: Initializing OpenAL
+Opened device Xonar U7 Analog Stereo
+EFX enabled
+V_Init: allocate screen.
+S_Init: Setting up sound. ST_Init: Init startup screen.
+Checking cmd-line parameters... S_InitData: Load sound definitions.
+G_ParseMapInfo: Load map definitions.
+Texman.Init: Init texture manager.
+ParseTeamInfo: Load team definitions.
+LoadActors: Load actor definitions.
+script parsing took 98.98 ms
+R_Init: Init Doom refresh subsystem. DecalLibrary: Load decals.
+M_Init: Init menus.
+P_Init: Init Playloop state.
+ParseSBarInfo: Loading custom status bar definition.
+D_CheckNetGame: Checking network game status.
+player 1 of 1 (1 nodes)
+Using video driver x11
+GL_VENDOR: NVIDIA Corporation GL_RENDERER: GeForce GTX 1080/PCIe/SSE2 GL_VERSION: 4.5.0 NVIDIA 390.77 (Core profile) GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA Max. texture size: 32768 Max. texture units: 32 Max. varying: 124 Max. combined shader storage blocks: 96 Max. vertex shader storage blocks: 16
+Resolution: 1920 x 1200
+map01 - system control
+Berserk!
+Picked up a clip.
+Picked up a clip.
+Picked up a clip.
+Picked up a clip.
+Picked up the armor.
+Picked up a clip.
+Picked up a clip.
+Picked up a box of shotgun shells. Picked up a stimpack.
+Picked up the MegaArmor!
+Picked up a clip.
+Picked up a stimpack.
+You got the shotgun!
+Picked up a stimpack.
+Picked up a clip.
+Picked up a stimpack.
+Picked up a clip.
+Picked up a clip.
+Picked up a stimpack.
+Picked up a blue keycard.
+Picked up a clip.
+You got the chaingun!
+You got the chaingun!
+Picked up a medikit.
+Picked up a medikit.
+Picked up 4 shotgun shells.
+Picked up an armor bonus.
+Picked up 4 shotgun shells.
+You got the shotgun!
+Picked up a stimpack.
+You got the shotgun!
+You got the chaingun!
+map02 - human bbq
+game saved. (/home/levi/Games/DooMods/engine/saves/auto1.zds)
+You got the shotgun!
+Picked up 4 shotgun shells.
+Picked up a medikit.
+Picked up a box of shotgun shells.
+You got the shotgun!
+Picked up a clip.
+You got the chaingun!
+You got the chaingun!
+Picked up a clip.
+Picked up a box of shotgun shells.
+Picked up a red keycard.
+Picked up a stimpack.
+You got the shotgun!
+A chainsaw! Find some meat!
+Picked up 4 shotgun shells.
+You got the shotgun!
+You got the shotgun!
+You got the chaingun!
+Picked up a clip.
